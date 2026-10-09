@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><title>Pagina non trovata</title>
+<meta name="robots" content="noindex">
+<script>
+// Il vecchio indirizzo della pagina di Sciamn (repo rinominato "uniplanner-releases" -> "sciamn"):
+// GitHub Pages non reindirizza i siti di progetto rinominati, lo facciamo qui per qualunque sotto-percorso.
+var p = location.pathname;
+if (p.indexOf('/uniplanner-releases') === 0) location.replace('/sciamn' + p.slice('/uniplanner-releases'.length) + location.search + location.hash);
+</script>
+<p>Pagina non trovata. Cercavi <a href="/sciamn/">Sciamn</a>?</p>
