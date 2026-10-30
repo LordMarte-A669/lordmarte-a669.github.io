@@ -1,0 +1,7 @@
+# Vale per tutti i siti sotto lordmarte-a669.github.io: Google legge il robots.txt solo alla radice
+# dell'host, quindi le sitemap dei siti di progetto si dichiarano qui.
+User-agent: *
+Allow: /
+
+Sitemap: https://lordmarte-a669.github.io/sciamn/sitemap.xml
+Sitemap: https://lordmarte-a669.github.io/sciamn/orari/sitemap.xml
